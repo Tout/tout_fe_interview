@@ -1,0 +1,22 @@
+{
+  "name": "tout_fe_interview",
+  "version": "1.0.0",
+  "description": "Interview project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tout",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "eslint": "^3.19.0",
+    "expect.js": "^0.3.1",
+    "http-server": "^0.10.0",
+    "mocha": "^3.4.2",
+    "webpack": "^2.6.1"
+  }
+}
