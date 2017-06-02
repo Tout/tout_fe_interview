@@ -1,8 +1,9 @@
 # Tout Frontend Interview Project
 
-This is an open book take home test. There are no *right* or *wrong* answers. The goal is to get an understanding of how you solve the problem. Creativity is encouraged.
+This is an open book take home test. There are no *right* or *wrong* answers. The goal is to get an understanding of how you solve the problem. Creativity is encouraged. We recommend focusing on your strengths and showing off your skills.
 
-This project has a base Webpack setup with Mocha and ESLint. Using this setup is not required as long as we can `git clone` and run the project.
+Use any libraries or tools you want. Modify and change any file in this project to fit your needs. To help you get started, the project is a blank page built with Webpack and Babel. Mocha and ESLint are available for testing.
+
 
 ## Task
 > I need a page with six timers on it. The user should be able to see all six timers and the remaining time for each. Once a timer reaches zero, the user can click to restart the timer.
@@ -14,5 +15,9 @@ This project has a base Webpack setup with Mocha and ESLint. Using this setup is
 ```
 git clone tout_fe_interview
 cd tout_fe_interview
+git checkout -b YOUR_NAME
 make
 ```
+
+## Finish
+Once you are happy with the application create a pull request on Github.
