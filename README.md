@@ -13,10 +13,16 @@ Use any libraries or tools you want. Modify and change any file in this project 
 
 ## Running the demo:
 ```
-git clone tout_fe_interview
+git clone git@github.com:Tout/tout_fe_interview.git
 cd tout_fe_interview
 git checkout -b YOUR_NAME
 make
+```
+
+## Building
+Build will run webpack, compiling the javascript and css files into the bundle.js loaded in index.html.
+```
+make build
 ```
 
 ## Finish
