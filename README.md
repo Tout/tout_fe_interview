@@ -10,14 +10,65 @@ Use any libraries or tools you want. Modify and change any file in this project 
 
 > We need a function on `window` that can be called to set/reset the timers and their durations. This will be tested via the Console in Chrome, Safari, and Firefox.
 
+## Usage
 
-## Running the demo:
+### Part 1: Create a brand new repository
+
+![New Repo](https://user-images.githubusercontent.com/348581/27461558-5065ead2-576f-11e7-83d7-6044c05f2440.png)
+
+1. Open the new repository page: https://github.com/new
+2. Name it "tout_fe_interview"
+3. Select "Private"
+4. Click "Create repository" button.
+
+### Part 2: Import the sample project into your repo
+
+
+
+
+
+1. On the homepage for your new repository, click the "Import Code" button
+
+![Import Code](https://user-images.githubusercontent.com/348581/27461557-5065ea6e-576f-11e7-858e-6b44daa74d5d.png)
+
+2. Enter the following URL in the "Your old repository's clone URL" field then click "Begin Import"
+
 ```
-git clone git@github.com:Tout/tout_fe_interview.git
+https://github.com/Tout/tout_fe_interview.git
+```
+
+![Clone URL](https://user-images.githubusercontent.com/348581/27461560-507b4256-576f-11e7-921c-da9af30f4014.png)
+
+3. Wait 30 seconds
+4. Go to your new repository
+
+### Part 3: Clone your repo and start working
+
+1. Clone your repo (Substitute your account name below)
+
+```
+git clone git@github.com:[YOUR_GITHUB_NAME_HERE]/tout_fe_interview.git
+```
+
+2. Build the code and start the server
+
+```
 cd tout_fe_interview
-git checkout -b YOUR_NAME
 make
 ```
+
+3. Commit your code and push
+
+### Part 4: Share your repo with Tout
+
+![Share Access](https://user-images.githubusercontent.com/348581/27461559-50687798-576f-11e7-891f-561e758d9cd6.png)
+
+1. Click the "Settings" tab
+
+2. Click on the "Collaborators" tab.
+
+3. Add `ripter` as a collaborator
+
 
 ## Building
 Build will run webpack, compiling the javascript and css files into the bundle.js loaded in index.html.
