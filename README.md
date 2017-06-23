@@ -75,6 +75,3 @@ Build will run webpack, compiling the javascript and css files into the bundle.j
 ```
 make build
 ```
-
-## Finish
-Once you are happy with the application create a pull request on Github.
