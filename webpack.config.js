@@ -18,6 +18,13 @@ const baseConfig = {
       },
     ], // rules:
   }, // module:
+
+  // devServer adds it's own code before serving bundle.js
+  // If you look in the netwrok tab, you will see a lot of things not in the actual file.
+  devServer: {
+    contentBase: path.resolve(__dirname, 'public'),
+    publicPath: '/'
+  }, // devServer
 };
 
 // Export the completed config.

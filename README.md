@@ -23,10 +23,6 @@ Use any libraries or tools you want. Modify and change any file in this project 
 
 ### Part 2: Import the sample project into your repo
 
-
-
-
-
 1. On the homepage for your new repository, click the "Import Code" button
 
 ![Import Code](https://user-images.githubusercontent.com/348581/27461557-5065ea6e-576f-11e7-858e-6b44daa74d5d.png)
@@ -67,11 +63,4 @@ make
 
 2. Click on the "Collaborators" tab.
 
-3. Add `ripter` as a collaborator
-
-
-## Building
-Build will run webpack, compiling the javascript and css files into the bundle.js loaded in index.html.
-```
-make build
-```
+3. Add [`ripter`](https://github.com/ripter) as a collaborator
